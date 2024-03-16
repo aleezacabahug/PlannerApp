@@ -33,3 +33,37 @@ h3{
     font-size: 30px;
 
 }
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+button{
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    opacity: 0.8;
+    
+}
+
+h4{
+    margin: 10px auto;
+    border: 10px;
+    border-radius: 20px;
+    font-family: "Courier new";
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+

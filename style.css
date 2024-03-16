@@ -1,0 +1,12 @@
+
+.subheader {
+    list-style-type: none;
+}
+
+.subheader header h2 {
+    margin: 0; 
+    padding: 10px; 
+    background-color: #f0f0f0; 
+    color: #333; 
+    font-size: 18px;
+}

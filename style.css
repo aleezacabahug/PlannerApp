@@ -34,10 +34,6 @@ h3{
 
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
-}
 
 a {
     text-decoration: none;
@@ -60,6 +56,55 @@ h4{
     font-family: "Courier new";
     text-align: center;
     font-size: 30px;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.todo-app h5 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline:none;
+    background: transparent;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+text{
+    border:none;
+    outline:none;
+    padding: 16px 50px;
+    background: #f6ddff;
+    color: #640e5b;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+
 }
 
 

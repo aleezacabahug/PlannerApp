@@ -10,14 +10,6 @@ h1{
 }
 
 
-h2{
-    margin: 10px auto;
-    border: 10px
-    text-align: center;
-        
-}
-
-
 p{
     margin: 10px auto;
     font-family: "Courier new";
@@ -30,4 +22,14 @@ p.thick{
 
 p.thicker {
     font-weight: 900;
+}
+
+h3{
+    margin: 10px auto;
+    border: 10px;
+    border-radius: 20px;
+    font-family: "Courier new";
+    text-align: center;
+    font-size: 30px;
+
 }

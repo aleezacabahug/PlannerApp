@@ -1,12 +1,10 @@
+h1{
+    margin: 10px auto;
+    border: 10px dotted #8c8caf;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 100px;
 
-.subheader {
-    list-style-type: none;
-}
-
-.subheader header h2 {
-    margin: 0; 
-    padding: 10px; 
-    background-color: #f0f0f0; 
-    color: #333; 
-    font-size: 18px;
 }

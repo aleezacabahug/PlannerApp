@@ -1,3 +1,27 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const addGoalBtn = document.getElementById("addGoalBtn");
+    const goalInput = document.getElementById("goalInput");
+    const goalList = document.getElementById("goalList");
+
+    // Function to add a new goal
+    const addGoal = () => {
+        const goalText = goalInput.value.trim();
+        if (goalText !== "") {
+            const goalItem = document.createElement("li");
+            goalItem.innerHTML = `
+                <input type="checkbox">
+                <label>${goalText}</label>
+            `;
+            goalList.appendChild(goalItem);
+            goalInput.value = ""; // Clear the input field after adding the goal
+        } else {
+            alert("Please enter a valid goal."); // Notify the user if the input is empty
+        }
+    };
+
+    // Event listener for adding a new goal
+    addGoalBtn.addEventListener("click", addGoal);
+});
 
 let date = new Date();
 let year = date.getFullYear();

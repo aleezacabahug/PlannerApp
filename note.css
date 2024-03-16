@@ -1,0 +1,158 @@
+/* Combined CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Styles from the first CSS code block */
+h1 {
+    margin: 10px auto;
+    border: 10px dotted #121244;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    margin: 10px auto;
+    font-family: "Courier new";
+    text-align: center;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}
+
+h3 {
+    margin: 10px auto;
+    border: 10px;
+    border-radius: 20px;
+    font-family: "Courier new";
+    text-align: center;
+    font-size: 30px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+h4 {
+    margin: 10px auto;
+    border: 10px;
+    border-radius: 20px;
+    font-family: "Courier new";
+    text-align: center;
+    font-size: 30px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.todo-app h5 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 20px;
+}
+
+text {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #f6ddff;
+    color: #640e5b;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+/* Styles from the second CSS code block */
+.todo-app {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.checkmark {
+    margin-right: 10px;
+    cursor: pointer;
+}

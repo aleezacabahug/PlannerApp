@@ -1,0 +1,174 @@
+body {
+    background-color: beige;
+    background-image: url("aura.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    margin: 10px auto;
+    border: 10px dotted #121244;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(9, 4, 44);
+}
+
+p {
+    margin: 10px auto;
+    font-family: "Courier new";
+    text-align: center;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}
+
+h3 {
+    margin: 10px auto;
+    border: 10px;
+    border-radius: 20px;
+    font-family: "Courier new";
+    text-align: center;
+    font-size: 30px;
+    color: rgb(9, 4, 44);
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: black; /* Adjust the color as needed */
+}
+
+button {
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin: 10px auto;
+}
+
+h4 {
+    margin: 10px auto;
+    border: 10px;
+    border-radius: 20px;
+    font-family: "Courier new";
+    text-align: center;
+    font-size: 30px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.todo-app h5 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 20px;
+}
+
+text {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #f6ddff;
+    color: #640e5b;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule {
+    font-size: 16px;
+}
+
+.schedule h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.schedule ul {
+    list-style: none;
+    padding: 0;
+}
+
+.schedule li {
+    margin-bottom: 15px;
+}
+
+.schedule span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.schedule p {
+    margin: 0;
+}
+
+.schedule ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.schedule ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.schedule ul li span {
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.schedule ul li p {
+    flex: 1;
+    margin: 0;
+}

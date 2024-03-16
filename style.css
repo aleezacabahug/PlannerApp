@@ -7,4 +7,23 @@ h1{
     text-align: center;
     font-size: 100px;
 
+
+    
+    body {
+        font-family: Arial, sans-serif;
+      }
+      #taskInput {
+        width: 200px;
+        margin-bottom: 10px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+      
+      
+
 }

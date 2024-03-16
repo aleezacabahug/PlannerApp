@@ -3,60 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="aleeza cabahug, victoria pham, nate to">
-    <meta name=" description" content = "This page contains the title of our app, user sign up/login, and "
-    <title></title>
-    <link rel=" icon" href="planner.png" type=" image/x-icon">
-    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="This page contains the title of our app, user sign up/login, and ">
+    <title>Aura Planner</title>
+    <link rel="icon" href="planner.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
-            background-color:beige;
+            background-color: beige;
             background-image: url("aura.jpg");
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 style = "color: rgb(9, 4, 44); ">˚ʚ♡ɞ˚Aura Planner˚ʚ♡ɞ˚</h1>
+        <h1 style="color: rgb(9, 4, 44);">˚ʚ♡ɞ˚Aura Planner˚ʚ♡ɞ˚</h1>
         <h2></h2>
-        <h3 style = "color: rgb(9, 4, 44);">˚ʚ Daily Schedule ɞ˚</h3>
-        <div align="center"> 
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <button><a href="./Home.html">Home</a></button>
-            <button><a href="./todo.html">To-Do Lists</a></button>
-            <button><a href="./note.html">Monthly goals</a></button>
-            <button><a href="./calendar.html">Calendar</a></button>
-            <button><a href="./schedule.html">Daily Schedule</a></button>
+        <h3 style="color: rgb(9, 4, 44);">˚ʚ Daily Schedule ɞ˚</h3>
+        <div class="container">
+            <section class="schedule">
+                <h2>My Daily Schedule</h2>
+                <ul id="schedule-list">
+                    <li>
+                        <span>6:00 AM</span>
+                        <input type="text" value="Wake up and stretch">
+                    </li>
+                    <li>
+                        <span>7:00 AM</span>
+                        <input type="text" value="Breakfast">
+                    </li>
+                    <li>
+                        <span>8:00 AM</span>
+                        <input type="text" value="Exercise">
+                    </li>
+                    <li>
+                        <span>9:00 AM</span>
+                        <input type="text" value="Work on project">
+                    </li>
+                    <li>
+                        <span>1:00 PM</span>
+                        <input type="text" value="Lunch break">
+                    </li>
+                    <li>
+                        <span>2:00 PM</span>
+                        <input type="text" value="Meeting with team">
+                    </li>
+                    <li>
+                        <span>4:00 PM</span>
+                        <input type="text" value="Review progress">
+                    </li>
+                    <li>
+                        <span>6:00 PM</span>
+                        <input type="text" value="Exercise">
+                    </li>
+                    <li>
+                        <span>7:00 PM</span>
+                        <input type="text" value="Dinner">
+                    </li>
+                    <li>
+                        <span>8:00 PM</span>
+                        <input type="text" value="Relax and unwind">
+                    </li>
+                    <li>
+                        <span>10:00 PM</span>
+                        <input type="text" value="Bedtime">
+                    </li>
+                </ul>
+                <button id="save-btn">Save</button>
+            </section>
         </div>
+        <div align="center"> 
+        <!-- Buttons -->
+        <button><a href="./Home.html">Home</a></button>
+        <button><a href="./todo.html">To-Do Lists</a></button>
+        <button><a href="./note.html">Monthly Goals</a></button>
+        <button><a href="./calendar.html">Calendar</a></button>
+        <button><a href="./schedule.html">Daily Schedule</a></button> </div>
     </header>
-    <main>
-        <!-- Content goes here -->
-    </main>
-
+    
     <footer>
         <p>&copy; 2024 Planner App</p>
     </footer>
